@@ -1,0 +1,2 @@
+[compatibility_flags]
+flags = ["nodejs_compat"]
