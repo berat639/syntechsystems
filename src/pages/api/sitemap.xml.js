@@ -4,7 +4,7 @@ export const runtime = 'edge';
 const pages = [
   '',  // ana sayfa
   '/about',
-  '/contact',
+  '/team',
   // diğer sayfalarınızı ekleyin
 ];
 
