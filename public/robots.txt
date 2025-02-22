@@ -1,0 +1,11 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+# Host
+Host: https://project-seven-chi-75.vercel.app
+
+# Sitemaps
+Sitemap: https://project-seven-chi-75.vercel.app/sitemap.xml

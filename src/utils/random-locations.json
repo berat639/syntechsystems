@@ -1,0 +1,53 @@
+[
+    {
+      "lat": 39.9334,
+      "lng": 32.8597,
+      "name": "Türkiye"
+    },
+    {
+      "lat": 38.8977,
+      "lng": -77.0365,
+      "name": "USA"
+    },
+    {
+      "lat": 52.3676,
+      "lng": 4.9041,
+      "name": "Netherlands"
+    },
+    {
+      "lat": 37.5665,
+      "lng": 126.9780,
+      "name": "Korea"
+    },
+    {
+      "lat": 39.9042,
+      "lng": 116.4074,
+      "name": "China"
+    },
+    {
+      "lat": 22.3193,
+      "lng": 114.1694,
+      "name": "Hong Kong"
+    },
+    {
+      "lat": 23.5969,
+      "lng": 121.0187,
+      "name": "Taiwan"
+    },
+    {
+      "lat": -33.8688,
+      "lng": 151.2093,
+      "name": "Australia"
+    },
+    {
+      "lat": 24.7136,
+      "lng": 46.6753,
+      "name": "Kingdom of Saudi Arabia"
+    },
+    {
+      "lat": 25.2048,
+      "lng": 55.2708,
+      "name": "United Arab Emirates"
+    }
+  ]
+  
