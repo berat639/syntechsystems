@@ -11,7 +11,7 @@ const Custom404 = () => {
   return (
     <Layout>
       <Head>
-        <title>404: Page Not Found | SynTech</title>
+        <title>404 Page Not Found | SynTech</title>
         <meta name="description" content="The page you're looking for cannot be found. Please check the URL or navigate back to our homepage." />
         <meta name="robots" content="noindex, follow" />
       </Head>
@@ -24,7 +24,7 @@ const Custom404 = () => {
               Page Not Found
             </h2>
             <p className="text-gray-700 dark:text-gray-300">
-              The page you're looking for doesn't exist or has been moved.
+            {"The page you're looking for doesn't exist or has been moved."}
             </p>
           </div>
 

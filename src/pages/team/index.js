@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React, { useEffect } from 'react';
 import Layout from '../../components/Layout/Layout';
 import Head from 'next/head';
@@ -24,9 +25,9 @@ const TeamPage = () => {
       email: 'alper.erdener@syntechsystem.com',
       image: '/team/alper-erdener.webp',
       bio: [
-        'Our founder Alper Erdener is a former Program Director at ASELSAN Inc., Türkiye\'s largest defense company and one of the world\'s top 50 defense firms. He has a proven track record of successfully managing complex, large-scale defense programs.',
+        'Our founder Alper Erdener is a former Program Director at ASELSAN Inc., Türkiye&apos;s largest defense company and one of the world&apos;s top 50 defense firms. He has a proven track record of successfully managing complex, large-scale defense programs.',
         'With over 25 years of national and international experience in the defense industry, he specializes in product development, program management, and business development.',
-        'He played a pivotal role in directing Türkiye\'s first state-of-the-art Fire Control System development and unmanned vehicle projects, successfully leading multidisciplinary teams. With hands-on expertise in both technical development and program execution, he ensures clients receive practical, implementation-focused solutions.',
+        'He played a pivotal role in directing Türkiye&apos;s first state-of-the-art Fire Control System development and unmanned vehicle projects, successfully leading multidisciplinary teams.',
         'Alper Erdener is also the CEO of RAS Technology Inc., a portfolio company of SynTech.'
       ]
     },
@@ -37,7 +38,7 @@ const TeamPage = () => {
       image: '/team/oguz-arabali.webp',
       bio: [
         'After serving as an artillery and intelligence officer in Turkish Armed Forces for 27 years, he retired at the rank of full colonel on September 2018.',
-        'He\'s experienced about NATO Intelligence Surveillance Reconnaissance (ISR) capability, organization and training issues, Counter Intelligence (CI)&Human Intelligence (HUMINT)&Protective Security, Unmanned Aircraft Systems (UAS), Strategic Intelligence, Intelligence training during his military career.',
+        'He’s experienced about NATO Intelligence Surveillance Reconnaissance (ISR) capability, organization and training issues, Counter Intelligence (CI)&Human Intelligence (HUMINT)&Protective Security, Unmanned Aircraft Systems (UAS), Strategic Intelligence, Intelligence training during his military career.',
         'He attended at peacekeeping operations, meetings (especially NATO Land Capability Group-6), seminars, conferences, exercises, courses and visits in Afghanistan, Bosnia-Herzegovina, USA, Belgium, Germany, England and Bulgaria about 2.5 years.',
         'After his retirement, he continues his professional life managing and coordinating defense and public security projects.'
       ]

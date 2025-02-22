@@ -70,7 +70,7 @@ const AboutPage = () => {
               <div className="absolute -inset-7 bg-gradient-to-r from-blue-500/10 via-cyan-500/10 to-purple-500/10 rounded-xl blur-xl group-hover:opacity-75 transition-opacity duration-500"></div>
               <div className="relative">
                 <Image
-                  src="https://control.com/uploads/thumbnails/Chain_Drives_featured.jpg"
+                  src="/Chain_Drives_featured.webp"
                   alt="SynTech Defense Systems Excellence"
                   width={600}
                   height={400}

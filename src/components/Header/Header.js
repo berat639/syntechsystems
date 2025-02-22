@@ -104,7 +104,7 @@ export const Header = memo(({
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-4">
             {logoUrl && (
-            <a href="/" className="flex items-center space-x-4 hover:opacity-80 transition-opacity" aria-label="Go to homepage" title="Home">
+            <Link href="/" className="flex items-center space-x-4 hover:opacity-80 transition-opacity" aria-label="Go to homepage" title="Home">
               <Image 
                 src={logoUrl} 
                 alt={`${title} logo`}
@@ -114,7 +114,7 @@ export const Header = memo(({
                 priority
               />
               <h1 className="text-xl font-semibold text-gray-900 dark:text-white">SynTech</h1>
-            </a>
+            </Link>
           )}
         </div>
 

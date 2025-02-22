@@ -13,6 +13,16 @@ module.exports = (phase, { defaultConfig }) => {
   return {
     swcMinify: true,
     images: {
+      remotePatterns: [
+        {
+          protocol: 'https',
+          hostname: 'unpkg.com'
+        },
+        {
+          protocol: 'https',
+          hostname: 'control.com'
+        }
+      ],
       loader: 'custom',
       loaderFile: './cfImageLoader.js'
     },
