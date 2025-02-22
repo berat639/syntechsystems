@@ -1,6 +1,8 @@
 import { globby } from 'globby';
 
-const sitemapXml = async (req, res) => {
+export const runtime = 'edge'; // Edge Runtime'ı aktif et
+
+export default async function handler(req) {
   const BASE_URL = 'https://syntech.com';
   
   // Tüm sayfaları bul
@@ -31,9 +33,10 @@ const sitemapXml = async (req, res) => {
         .join('')}
     </urlset>`;
 
-  res.setHeader('Content-Type', 'text/xml');
-  res.write(sitemap);
-  res.end();
-};
-
-export default sitemapXml;
+  // Edge Runtime için Response API'sini kullan
+  return new Response(sitemap, {
+    headers: {
+      'Content-Type': 'text/xml',
+    },
+  });
+}
